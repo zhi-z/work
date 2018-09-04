@@ -85,7 +85,7 @@ public class TitleLayout  extends LinearLayout {
     </com.example.raindi.test.TitleLayout>
 到这里就完成了标题栏的自定义实现。但是只是显示效果，并没有能够监听事件的处理。实现的效果如下图所示：
 
-![1536046622018](E:\RD\RD总结\Android\Android自定义标题栏\image\1536046622018.png)
+![1536046622018](https://raw.githubusercontent.com/zhi-z/work/master/Android/Android%E8%87%AA%E5%AE%9A%E4%B9%89%E6%A0%87%E9%A2%98%E6%A0%8F/image/1536046622018.png)
 
 ## 4 添加按钮点击监听 
 
