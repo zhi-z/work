@@ -1,4 +1,4 @@
-# SharedPreferences应用(转)
+# SharedPreferences数据存储(转)
 
 ## 1 简介
 
