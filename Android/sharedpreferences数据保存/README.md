@@ -75,13 +75,13 @@ key value：指定的值
 - 清空数据:由Editor对象调用
 
 ```
-abstract SharedPreferences.Editor   clear()
+abstract SharedPreferences.Editor  clear()
 ```
 
 - 提交数据：由Editor对象调用
 
 ```
-abstract boolean    commit()
+abstract boolean  commit()
 ```
 
 - 读取数据：由SharedPreferences对象调用
@@ -108,8 +108,6 @@ abstract Set<String>    getStringSet(String key, Set<String> defValues)
 key：指定数据的
 
 key defValue：当读取不到指定的数据时，使用的默认值defValue 
-
-
 
 ## 4 性能
 
