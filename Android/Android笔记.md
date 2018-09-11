@@ -188,20 +188,3 @@ intent.putExtra("data",editTextData.getText().toString()); //在activity把数�
             }
 ```
 
-    "id": 6,
-    "deviceId": "1dabd1b8-fd52-488c-8bbd-d34c4d30fdc6",
-    "sn": "863703034511191",
-    "deviceName": "NB05_1191",
-    "location": "翻身小区8栋",
-    "lnglat": "113.93635,22.634573",
-    "customer": "雨滴科技",
-    "status": "OFFLINE",
-    "statusDetail": "OFFLINE",
-    "error": 0,
-    "mode": 0,
-    "key": 0,
-    "power": 0,
-    "target": 280,
-    "pressure": 0,
-    "lifecount": 10,
-    "updated": "2018-08-21T11:40:15.202156+08:00"
