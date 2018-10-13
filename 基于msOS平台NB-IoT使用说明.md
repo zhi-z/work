@@ -35,7 +35,7 @@ typedef struct _MessageStruct
 
 3. NB-IoT配置：在nbiot_config.h文件中，一般需要修改发送到IoT平台的地址和端口，在这里也设置了一个默认的地址，如图所示：
 
-![1533607743848](C:\Users\JH\Desktop\RD总结\assets\1533607743848.png)
+![1533607743848](E:\GitHub\work\assets\1533607743848.png)
 
 4. 接着发送数据前需要先打开NB-IoT，在msOS系统中已经定义好了接口，直接用如下代码打开：
 
