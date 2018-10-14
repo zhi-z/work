@@ -78,7 +78,7 @@ SP Portal是OceanConnect物联网平台呈现给开发者使用的前台界面�
 
 设备绑定成功后，可以从SP Portal上看到设备状态从未绑定编程已绑定。现在使用方法三进行设备绑定，如图所示：选择NB设备模拟器，然后选择绑定数据，接着输入设备标识码，就可以完成绑定。
 
-![1539223372988](C:\Users\DataH\Desktop\GitHub\work\nbiot开发\image\bind.png)
+![1539223372988](https://raw.githubusercontent.com/zhi-z/work/master/nbiot%E5%BC%80%E5%8F%91/image/bind.png)
 
 ### 2.6 南向设备：发送数据
 
