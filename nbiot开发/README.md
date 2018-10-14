@@ -34,7 +34,7 @@ SP Portal是OceanConnect物联网平台呈现给开发者使用的前台界面�
 
 如图所示：直接在OceanConnect上创建应用
 
-![1539165496307](E:\GitHub\work\nbiot开发\image\createAPP.png)
+![1539165496307](https://raw.githubusercontent.com/zhi-z/work/master/nbiot%E5%BC%80%E5%8F%91/image/createAPP.png)
 
 ### 2.2 设备Profile：完成开发，并上传到平台
 
@@ -42,7 +42,7 @@ SP Portal是OceanConnect物联网平台呈现给开发者使用的前台界面�
 
 如图所示：直接在OceanConnect上创建profile文件。
 
-![1539165795700](E:\GitHub\work\nbiot开发\image\createProfile)
+![1539165795700](https://raw.githubusercontent.com/zhi-z/work/master/nbiot%E5%BC%80%E5%8F%91/image/createProfile.png)
 
 ### 2.3 北向应用：首先实现鉴权、注册直连设备、修改设备信息
 
@@ -53,7 +53,7 @@ SP Portal是OceanConnect物联网平台呈现给开发者使用的前台界面�
 
 如图所示，在SP Portal上注册设备。
 
-![1539221533911](E:\GitHub\work\nbiot开发\image\registered)
+![1539221533911](https://raw.githubusercontent.com/zhi-z/work/master/nbiot%E5%BC%80%E5%8F%91/image/registered.png)
 
 ### 2.4 编解码器：完成开发，并上传到平台
 
@@ -66,7 +66,7 @@ SP Portal是OceanConnect物联网平台呈现给开发者使用的前台界面�
 
 在SP Portal上创建编解码插件，如图所示。
 
-![1539222816991](E:\GitHub\work\nbiot开发\image\createEditCode.png)
+![1539222816991](https://raw.githubusercontent.com/zhi-z/work/master/nbiot%E5%BC%80%E5%8F%91/image/createEditCode.png)
 
 ### 2.5 南向设备：发起绑定请求
 
@@ -78,7 +78,7 @@ SP Portal是OceanConnect物联网平台呈现给开发者使用的前台界面�
 
 设备绑定成功后，可以从SP Portal上看到设备状态从未绑定编程已绑定。现在使用方法三进行设备绑定，如图所示：选择NB设备模拟器，然后选择绑定数据，接着输入设备标识码，就可以完成绑定。
 
-![1539223372988](C:\Users\RD007\AppData\Local\Temp\1539223372988.png)
+![1539223372988](C:\Users\DataH\Desktop\GitHub\work\nbiot开发\image\bind.png)
 
 ### 2.6 南向设备：发送数据
 
@@ -88,17 +88,17 @@ SP Portal是OceanConnect物联网平台呈现给开发者使用的前台界面�
 
 数据如果发送成功，可以在SP Portal的设备event一栏看到相关的内容，当没有进行绑定时，发送数据发送成功后在nb-iot平台上的设备状态会由未绑定状变成已绑定状态。
 
-如果event内没有内容，则数据上传失败，具体原因需要结合实际情况进行分析，可在【自调试】系列中查找答案。 
+如果event内没有内容，则数据上传失败，具体原因需要结合实际情况进行分析。
 
 ## 3 消息订阅
 
 消息订阅也是nb-iot开发的重要部分，主要是为了获取设备消息，设备改变等，比如设备的消息有更新的时候，在NB-IOT就会根据我们订阅的地址用http的post方式发送到我们订阅的地址。如图所示，在SP Portal进行消息订阅，这里我填入了我服务器的地址，当有消息变化时候，NB-IOT平台就会发送数据到这个地址上，我们就可以获取这些数据。
 
-![1539395140573](E:\GitHub\work\nbiot开发\image\subscription.png)
+![1539395140573](https://raw.githubusercontent.com/zhi-z/work/master/nbiot%E5%BC%80%E5%8F%91/image/subscription.png)
 
 在这里我使用了Django搭建了一个服务器，用于测试是否订阅成功（对于Django服务器搭建的过程后面再另写一篇）。这时我打开服务器，并发送了一些数据，这时在服务器端可以收到消息，如图所示。
 
-![1539395645590](E:\GitHub\work\nbiot开发\image\subscription_data.png)
+![1539395645590](https://raw.githubusercontent.com/zhi-z/work/master/nbiot%E5%BC%80%E5%8F%91/image/subscription_data.png)
 
 通过以上我们可以看到，当消息变化时，它是以post方式发送数据到我们服务器的，这样就完成了消息的订阅。
 
